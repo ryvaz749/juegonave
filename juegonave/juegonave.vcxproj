@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="asteroid.cpp" />
+    <ClCompile Include="contar.cpp" />
     <ClCompile Include="disparo.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -131,8 +132,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="asteroid.h" />
+    <ClInclude Include="contar.h" />
     <ClInclude Include="disparo.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="sharepointer.h" />
     <ClInclude Include="xplode.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

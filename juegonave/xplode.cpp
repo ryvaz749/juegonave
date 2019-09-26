@@ -1,3 +1,4 @@
+#pragma once
 #include "xplode.h"
 xplode::xplode()
 {

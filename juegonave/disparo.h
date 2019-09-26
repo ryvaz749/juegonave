@@ -3,7 +3,7 @@
 class disparo
 {
 public:
-	float pi = 3.1415926535897932384626433;
+	float pi = 3.1415926535897932384626433f;
 	sf::RectangleShape shoot;
 	void update();
 	disparo();

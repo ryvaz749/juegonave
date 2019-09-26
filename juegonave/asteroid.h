@@ -9,7 +9,7 @@ private:
 public:
 	bool exists,xplode;
 	sf::FloatRect boundary;
-	float angulo;
+	float angulo,posx,posy,vel;
 	sf::Texture aste;
 	int direccion,angular,radio;
 	sf::CircleShape ast;
